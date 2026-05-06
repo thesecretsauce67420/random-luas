@@ -1,5 +1,4 @@
--- NOTE: THIS MAKES YOUR GAME LOOK LIKE ITS FROM THE NINTENDO 64!!!!
--- ONLY USE THIS IF YOU HAVE THE WORLDS MOST SHITTIEST PC
+-- makes your graphics nintendo 64 mode
 RunConsoleCommand("gmod_mcore_test", "1")
 RunConsoleCommand("mat_queue_mode", "-1")
 RunConsoleCommand("cl_threaded_bone_setup", "1")
@@ -16,6 +15,7 @@ RunConsoleCommand("r_drawdetailprops", "0")
 RunConsoleCommand("r_drawmodeldecals", "0")
 RunConsoleCommand("r_lod", "2")
 RunConsoleCommand("r_rootlod", "2")
+RunConsoleCommand("mat_picmip", "2")
 RunConsoleCommand("mat_reducefillrate", "1")
 RunConsoleCommand("mat_specular", "0")
 RunConsoleCommand("mat_bumpmap", "0")
